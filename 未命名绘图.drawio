@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T10:15:22.212Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="YqAVXCWeHPERPfPEvDlZ" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T10:23:41.491Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="nO04aW2nSvFBZmta5emu" version="21.1.5" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="2938" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
@@ -597,8 +597,8 @@
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-301" value="void OnPropertyHandler(IotContext context, std::string msg)&lt;br&gt;{&lt;br&gt;&lt;br&gt;}&amp;nbsp;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="330" y="770" width="380" height="102" as="geometry" />
         </mxCell>
-        <mxCell id="I9QbP4iJ-JVChOP0fgTt-302" value="void OnServiceHandler(IotContext context, std::string msg)&lt;br&gt;{&lt;br&gt;&lt;br&gt;}&amp;nbsp;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="330" y="890" width="380" height="102" as="geometry" />
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-302" value="void OnServiceHandler(IotContext context, std::string msg)&lt;br&gt;{&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;switch (context.Identifier)&lt;br&gt;{&lt;br&gt;case ServiceStartCollectDust:&lt;br&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;json j = json::prase(msg);&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;auto event = j.get&amp;lt;aliyun::&lt;span style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;CollectDustEvent&lt;/span&gt;&amp;gt;();&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;iotEventSint.OnStartCollectDust(context, ievent);&lt;/blockquote&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;}&lt;/blockquote&gt;}&amp;nbsp;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="330" y="890" width="380" height="170" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-304" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=150;tabHeight=28;tabPosition=left;html=1;whiteSpace=wrap;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="1950" y="594" width="820" height="112" as="geometry" />
