@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T03:38:13.213Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="86CUeI2sOV72NsVtPCJB" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T05:14:07.956Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="WL29oGAGglYh6SzhFPzc" version="21.1.5" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="3101" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3150" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -497,9 +497,6 @@
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-225" value="IIotOperation *iotOperation = NULL;&lt;br&gt;if (info.)" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="-980" y="480" width="260" height="102" as="geometry" />
-        </mxCell>
-        <mxCell id="I9QbP4iJ-JVChOP0fgTt-243" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;endSize=16;" edge="1" parent="1" source="I9QbP4iJ-JVChOP0fgTt-227" target="I9QbP4iJ-JVChOP0fgTt-227">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-228" value="AmazonAdapter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="-340" y="1080" width="130" height="60" as="geometry" />
