@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-11T06:07:04.327Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="d5lGtUrqPjQ3yb4H28F-" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-11T06:31:12.143Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="zqvyYh07V5Gly_WuAoxk" version="21.1.5" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="3671" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3150" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,16 +80,19 @@
           <mxGeometry y="102" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-40" value="IotContext" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="2430" y="182" width="170" height="104" as="geometry" />
+          <mxGeometry x="2430" y="182" width="170" height="130" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-41" value="+ MessageId: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-40">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="I9QbP4iJ-JVChOP0fgTt-42" value="+ Identifier: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-40">
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-278" value="+ RRPCId: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-40">
           <mxGeometry y="52" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="I9QbP4iJ-JVChOP0fgTt-43" value="+ EventType: ModelType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-40">
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-42" value="+ Identifier: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-40">
           <mxGeometry y="78" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-43" value="+ EventType: ModelType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-40">
+          <mxGeometry y="104" width="170" height="26" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-47" value="&amp;lt;&amp;lt;enumeration&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;ModelType&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="2620" y="172" width="240" height="128" as="geometry" />
@@ -376,25 +379,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-156" value="&lt;i&gt;IIotOperation&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="-997.5" y="850" width="295" height="164" as="geometry" />
+          <mxGeometry x="-997" y="846" width="507.5" height="216" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-157" value="- iotEventSint: IIotEvent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-156">
-          <mxGeometry y="26" width="295" height="26" as="geometry" />
+          <mxGeometry y="26" width="507.5" height="26" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-159" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-156">
-          <mxGeometry y="52" width="295" height="8" as="geometry" />
+          <mxGeometry y="52" width="507.5" height="8" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-160" value="+ virtual InitPlatform(PlatformInfo info):&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-156">
-          <mxGeometry y="60" width="295" height="26" as="geometry" />
+          <mxGeometry y="60" width="507.5" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="I9QbP4iJ-JVChOP0fgTt-161" value="+virtual&amp;nbsp;SendProperty(): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-156">
-          <mxGeometry y="86" width="295" height="26" as="geometry" />
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-161" value="+virtual&amp;nbsp;SendProperty(string jsonData): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-156">
+          <mxGeometry y="86" width="507.5" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="I9QbP4iJ-JVChOP0fgTt-162" value="+virtual: SendPropertyBatch()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-156">
-          <mxGeometry y="112" width="295" height="26" as="geometry" />
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-162" value="+virtual: SendPropertyBatch(dstring jsonData)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-156">
+          <mxGeometry y="112" width="507.5" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="I9QbP4iJ-JVChOP0fgTt-165" value="+virtual SendEventPost(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-156">
-          <mxGeometry y="138" width="295" height="26" as="geometry" />
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-165" value="+virtual SendEventPost(string jsonData): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-156">
+          <mxGeometry y="138" width="507.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-277" value="+virtual SendSyncServiceReply(IotContext context, IotResult result, string message): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-156">
+          <mxGeometry y="164" width="507.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-280" value="+virtual SendSyncServiceReply(IotContext context, string jsonData): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-156">
+          <mxGeometry y="190" width="507.5" height="26" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-167" value="&lt;b&gt;BaseInfo&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1360" y="82" width="210" height="52" as="geometry" />
@@ -529,12 +538,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-255" value="&lt;i&gt;IIotEvent&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="-617.5" y="850" width="295" height="52" as="geometry" />
+          <mxGeometry x="-410" y="860" width="295" height="52" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-258" value="+ virtual On(PlatformInfo info):&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-255">
           <mxGeometry y="26" width="295" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="I9QbP4iJ-JVChOP0fgTt-262" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;AliyunIotServerName&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;static const std::string ServerStartClean = &quot;StartClean&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string ServerStopClean = &quot;StopClean&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string ServerResumeClean = &quot;ResumeClean&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string ServerBackToStation = &quot;BackToStation&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string ServerStartCollectDust = &quot;StartCollectDust&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string ServerVacuumSet = &quot;VacuumSet&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string ServerGoToPoint = &quot;GoToPoint&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string ServerPointClean = &quot;PointClean&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-262" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;AliyunIotServiceName&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;static const std::string ServiceStartClean = &quot;StartClean&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string ServiceStopClean = &quot;StopClean&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string ServiceResumeClean = &quot;ResumeClean&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string ServiceBackToStation = &quot;BackToStation&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string ServiceStartCollectDust = &quot;StartCollectDust&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string ServiceVacuumSet = &quot;VacuumSet&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string ServiceGoToPoint = &quot;GoToPoint&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string ServicePointClean = &quot;PointClean&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1620" y="840" width="375" height="160" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-264" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;AliyunIotEventName&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;static const std::string EventStartClean = &quot;StartClean&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string EventStopClean = &quot;StopClean&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;fontColor=default;" vertex="1" parent="1">
@@ -543,8 +552,8 @@
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-265" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;AliyunIotPropertyName&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;static const std::string PropertyWifiRSSI = &quot;WiFi_RSSI&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string PropertyWorkMode = &quot;WorkMode&quot;;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string PropertySubMode = &quot;SubMode&quot;;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string PropertyPauseSwitch = &quot;PauseSwitch&quot;;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string PropertyBatteryState = &quot;BatteryState&quot;;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 8px;&quot;&gt;static const std::string PropertyFindRobot = &quot;FindRobot&quot;;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="-1620" y="1115" width="375" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="I9QbP4iJ-JVChOP0fgTt-266" value="DirectIotPlatform" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="320" y="670" width="440" height="252" as="geometry" />
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-266" value="&lt;i&gt;DirectIotPlatform&lt;/i&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="280" y="828" width="440" height="252" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-267" value="- iotEventSint: IIotEvent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-266">
           <mxGeometry y="26" width="440" height="26" as="geometry" />
