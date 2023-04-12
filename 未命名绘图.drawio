@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T01:53:41.161Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="OYFVAlZkP3t0w5ORlh9k" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T02:00:16.950Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="8a58ysxkufmNsSuWwaZn" version="21.1.5" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel dx="2790" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
@@ -666,8 +666,8 @@
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-350" value="bool InitIotPlatform(PlatformInfo info)&lt;br&gt;{&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;// 使用ROS Service发送服务调用&lt;br&gt;}" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-75" y="489" width="315" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="I9QbP4iJ-JVChOP0fgTt-351" value="// ROS服务实现各种事件回调&lt;br&gt;+virtual&amp;nbsp;OnSetWorkMode(IotContext context, WorkModeEvent event): void" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-85" y="580" width="405" height="100" as="geometry" />
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-351" value="// ROS服务实现各种事件回调&lt;br&gt;void OnSetWorkMode(IotContext context, WorkModeEvent event)&lt;br&gt;{&lt;br&gt;}" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.rectCallout;dx=30;dy=15;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="584" width="365" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
