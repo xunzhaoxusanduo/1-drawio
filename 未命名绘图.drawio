@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T02:54:35.255Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="NOK046KT2_aBN81KY4ky" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T02:59:02.933Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="MsMAoBAZl6uJ2Iep7Rva" version="21.1.5" type="github">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
-    <mxGraphModel dx="3401" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2938" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -634,7 +634,7 @@
           <mxGeometry x="-80" y="560" width="365" height="100" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-352" value="ROSIotPlatformServer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="780" width="440" height="226" as="geometry" />
+          <mxGeometry x="-600" y="730" width="440" height="226" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-354" value="- iot_platform_: IIotPlatform" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-352">
           <mxGeometry y="26" width="440" height="26" as="geometry" />
@@ -661,7 +661,7 @@
           <mxGeometry y="200" width="440" height="26" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-362" value="AWSIotPlatform" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="-810" y="1110" width="280" height="110" as="geometry" />
+          <mxGeometry x="-840" y="1110" width="280" height="110" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-365" value=".................." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-362">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
@@ -672,8 +672,11 @@
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-367" value="实际处理AWS IOT平台定义的物模型相关字段映射，模型序列化和反序列化" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-362">
           <mxGeometry y="60" width="280" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-392" style="edgeStyle=elbowEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.329;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=block;endFill=0;endSize=16;" edge="1" parent="1" source="I9QbP4iJ-JVChOP0fgTt-379" target="I9QbP4iJ-JVChOP0fgTt-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-379" value="DirectPlatform" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="-1150" y="460" width="440" height="252" as="geometry" />
+          <mxGeometry x="-1150" y="460" width="440" height="278" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-380" value="- iot_event_: IIotEvent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-379">
           <mxGeometry y="26" width="440" height="26" as="geometry" />
@@ -681,26 +684,35 @@
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-381" value="- iot_map_event_: IIotMapEvent" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-379">
           <mxGeometry y="52" width="440" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-389" value="- iot_platform_: IIotPlatform" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-379">
+          <mxGeometry y="78" width="440" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-382" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-379">
-          <mxGeometry y="78" width="440" height="8" as="geometry" />
+          <mxGeometry y="104" width="440" height="8" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-383" value="+ IotPlatform(IIotEvent event, IIotMapEvent map_event):&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-379">
-          <mxGeometry y="86" width="440" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="I9QbP4iJ-JVChOP0fgTt-384" value="+virtual&amp;nbsp;InitIotPlatform(PlatformInfo info): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-379">
           <mxGeometry y="112" width="440" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="I9QbP4iJ-JVChOP0fgTt-385" value="+virtual: ReportResponse(IotContext context, IotResult result, string message)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-379">
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-384" value="+virtual&amp;nbsp;InitIotPlatform(PlatformInfo info): bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-379">
           <mxGeometry y="138" width="440" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-385" value="+virtual: ReportResponse(IotContext context, IotResult result, string message)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-379">
+          <mxGeometry y="164" width="440" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-386" value="template &amp;lt;typename T&amp;gt;&lt;br&gt;+virtual: ReportResponse(IotContext context, const T&amp;amp; data)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-379">
-          <mxGeometry y="164" width="440" height="36" as="geometry" />
+          <mxGeometry y="190" width="440" height="36" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-387" value="+virtual ReportWifiInfo(WifiInfo info): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-379">
-          <mxGeometry y="200" width="440" height="26" as="geometry" />
+          <mxGeometry y="226" width="440" height="26" as="geometry" />
         </mxCell>
         <mxCell id="I9QbP4iJ-JVChOP0fgTt-388" value="+virtual ReportDevInfo(DevInfo info): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-379">
-          <mxGeometry y="226" width="440" height="26" as="geometry" />
+          <mxGeometry y="252" width="440" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-390" value="&lt;b&gt;IotMiddlewareFactory&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#1ba1e2;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="-1710" y="1110" width="370" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="I9QbP4iJ-JVChOP0fgTt-391" value="+ GetPlatform(&lt;span style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;PlatformType type&lt;/span&gt;): IIotPlatform&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="I9QbP4iJ-JVChOP0fgTt-390">
+          <mxGeometry y="26" width="370" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
