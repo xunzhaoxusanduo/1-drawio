@@ -1,20 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T08:05:39.800Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.50" etag="12pWsSoH4z-ygrwLHwa4" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-06T08:07:43.506Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.50" etag="X-jbO372T1LLPdU17k-3" version="21.8.0" type="github">
   <diagram name="第 1 页" id="HQzfVTrx2GlR01jELWeK">
-    <mxGraphModel dx="1057" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="881" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lOq_GecW-tjW8hOBr35m-38" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#eff1f3;strokeColor=none;shadow=0;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="120" y="70" width="390" height="250" as="geometry" />
+          <mxGeometry x="120" y="110" width="390" height="250" as="geometry" />
         </mxCell>
         <mxCell id="lOq_GecW-tjW8hOBr35m-39" value="&lt;font color=&quot;#ffffff&quot; face=&quot;Courier New&quot;&gt;APP&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#79d9ce;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="150" y="260" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lOq_GecW-tjW8hOBr35m-44" value="扫地机" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#77aac2;strokeColor=none;shadow=1;glass=0;comic=0;gradientColor=none;fontFamily=Courier New;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="390" y="260" width="90" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="lOq_GecW-tjW8hOBr35m-55" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 17px&quot;&gt;&lt;font color=&quot;#696773&quot; style=&quot;font-size: 17px&quot;&gt;Title Font&lt;br&gt;Comic S&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="240" y="100" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="lOq_GecW-tjW8hOBr35m-74" value="阿里云" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f19a97;shadow=1;strokeColor=none;fontFamily=Courier New;fontColor=#FFFFFF;rounded=1;glass=0;comic=0;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="265" y="155" width="100" height="45" as="geometry" />
@@ -28,6 +25,11 @@
         <mxCell id="lOq_GecW-tjW8hOBr35m-97" value="&lt;b style=&quot;color: rgb(105 , 103 , 115)&quot;&gt;http&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Courier New;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="269.996923076923" y="269.9999999999999" as="geometry">
             <mxPoint x="2" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lOq_GecW-tjW8hOBr35m-118" value="&lt;font color=&quot;#696773&quot;&gt;&lt;b&gt;mqtt&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Courier New;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="279.9990973442832" y="380" as="geometry">
+            <mxPoint x="80" y="-113" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
