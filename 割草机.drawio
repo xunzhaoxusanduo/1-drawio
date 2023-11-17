@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T08:38:58.641Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.50" etag="MLsjRdZUNLoycB6-jA35" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T08:42:04.381Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.50" etag="nu_HQ_F955VX94eevqZ7" version="22.1.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="825" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,7 +50,7 @@
           <mxGeometry x="90" y="330" width="150" height="120" as="geometry" />
         </mxCell>
         <mxCell id="VH6RRAhwsbcZhpfBHV_4-87" value="provision" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#9581f7;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="105" y="410" width="110" height="30" as="geometry" />
+          <mxGeometry x="105" y="410" width="55" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VH6RRAhwsbcZhpfBHV_4-89" value="message dispatch" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#00b3bf;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="420" y="537.5" width="130" height="55" as="geometry" />
@@ -101,7 +101,25 @@
           <mxGeometry x="455" y="330" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VH6RRAhwsbcZhpfBHV_4-107" value="配网" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#9581f7;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="104" y="375" width="110" height="30" as="geometry" />
+          <mxGeometry x="104" y="375" width="56" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VH6RRAhwsbcZhpfBHV_4-108" value="OTA" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#9581f7;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="174" y="375" width="56" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VH6RRAhwsbcZhpfBHV_4-109" value="LOG" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#9581f7;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="174" y="410" width="56" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VH6RRAhwsbcZhpfBHV_4-110" value="运动控制" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#9581f7;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="270" y="375" width="56" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VH6RRAhwsbcZhpfBHV_4-111" value="设备设置" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#9581f7;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="334" y="375" width="56" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VH6RRAhwsbcZhpfBHV_4-112" value="状态上报" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#9581f7;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="270" y="410" width="56" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VH6RRAhwsbcZhpfBHV_4-113" value="错误上报" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#9581f7;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="334" y="410" width="56" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
