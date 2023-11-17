@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T08:36:13.561Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.50" etag="W5MptdWrHqSKwaaRA_yh" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T08:36:52.750Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.50" etag="0f7fXPuxgL5u7ohNGBmb" version="22.1.2" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="980" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,6 +93,12 @@
         </mxCell>
         <mxCell id="VH6RRAhwsbcZhpfBHV_4-104" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#8c79e8;" vertex="1" parent="1">
           <mxGeometry x="415" y="330" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VH6RRAhwsbcZhpfBHV_4-105" value="RTK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#9581f7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="295" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VH6RRAhwsbcZhpfBHV_4-106" value="VISION" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#9581f7;fontStyle=1;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="455" y="330" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
