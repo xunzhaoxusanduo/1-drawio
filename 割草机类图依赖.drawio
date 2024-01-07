@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-01-07T09:11:05.555Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="48VDs6TQxgTyFl5ZbXgA" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-07T09:11:56.931Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="PsmU_GcAkkgqYTOa5Nwd" version="22.1.17" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="989" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="JsssTWT-lbuTw5NgOQ8w-84" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dde7fd;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="59" y="250" width="701" height="520" as="geometry" />
+        </mxCell>
         <mxCell id="JsssTWT-lbuTw5NgOQ8w-8" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=100;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;strokeColor=#6d99f1;strokeWidth=2;fontColor=#6d99f1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="150" y="290" width="310" height="120" as="geometry" />
         </mxCell>
@@ -54,24 +57,6 @@
         </mxCell>
         <mxCell id="JsssTWT-lbuTw5NgOQ8w-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=60;entryDy=14;entryPerimeter=0;endArrow=open;endFill=0;strokeColor=#5d98e5;strokeWidth=2;fontColor=#6d99f1;curved=1;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JsssTWT-lbuTw5NgOQ8w-19" target="JsssTWT-lbuTw5NgOQ8w-27">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JsssTWT-lbuTw5NgOQ8w-31" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dde7fd;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="744" y="170" width="261" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="JsssTWT-lbuTw5NgOQ8w-32" value="消息中间件" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#6d99f1;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="815" y="190" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="JsssTWT-lbuTw5NgOQ8w-33" value="nanomsg" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#6d99f1;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="815" y="230" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="JsssTWT-lbuTw5NgOQ8w-34" value="DDS" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#6d99f1;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="880" y="230" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="JsssTWT-lbuTw5NgOQ8w-35" value="HAL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#6d99f1;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="740" y="210" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="JsssTWT-lbuTw5NgOQ8w-43" value="nng" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#6d99f1;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="929" y="230" width="46" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JsssTWT-lbuTw5NgOQ8w-52" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=80;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;strokeColor=#6d99f1;strokeWidth=2;fontColor=#6d99f1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="610" y="440" width="115" height="120" as="geometry" />
