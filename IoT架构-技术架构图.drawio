@@ -1,50 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T06:58:36.337Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="yVO8kGSPq0XEggFLB0hO" version="24.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-19T07:29:01.556Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="LSJRKwB60FAQnCuum1Ui" version="24.2.5" type="github">
   <diagram name="Page-1" id="JC4cb9zr0qlf4iiEeogh">
     <mxGraphModel dx="1369" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fbuUso7rly-JQaLcUg9s-77" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="270" y="295" width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fbuUso7rly-JQaLcUg9s-61" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;dashed=1;" vertex="1" parent="fbuUso7rly-JQaLcUg9s-77">
+          <mxGeometry width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fbuUso7rly-JQaLcUg9s-63" value="VIOT" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;fillColor=#6D99F1;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" vertex="1" parent="fbuUso7rly-JQaLcUg9s-77">
+          <mxGeometry width="300" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="fbuUso7rly-JQaLcUg9s-59" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;strokeColor=#6D99F1;" vertex="1" parent="1">
           <mxGeometry x="90" y="30" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="fbuUso7rly-JQaLcUg9s-60" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#6D99F1;strokeColor=none;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="370" y="465" as="sourcePoint" />
-            <mxPoint x="930" y="465" as="targetPoint" />
+            <mxPoint x="360" y="510" as="sourcePoint" />
+            <mxPoint x="920" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fbuUso7rly-JQaLcUg9s-61" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="577.25" y="260" width="145.5" height="140" as="geometry" />
+        <mxCell id="fbuUso7rly-JQaLcUg9s-64" value="&lt;font color=&quot;#6d99f1&quot;&gt;&lt;b&gt;DDS/NNG&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;" vertex="1" parent="1">
+          <mxGeometry x="285.5" y="392" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fbuUso7rly-JQaLcUg9s-63" value="VIOT" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;fillColor=#6D99F1;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="577.25" y="260" width="145.5" height="40" as="geometry" />
+        <mxCell id="fbuUso7rly-JQaLcUg9s-71" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#6D99F1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.phone_android" vertex="1" parent="1">
+          <mxGeometry x="116.39999999999998" y="272" width="33.6" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="fbuUso7rly-JQaLcUg9s-64" value="&lt;font color=&quot;#6d99f1&quot;&gt;&lt;b&gt;Ntrip&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;" vertex="1" parent="1">
-          <mxGeometry x="592.75" y="360" width="80" height="30" as="geometry" />
+        <mxCell id="fbuUso7rly-JQaLcUg9s-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;strokeWidth=3;strokeColor=#6D99F1;" edge="1" parent="1" source="fbuUso7rly-JQaLcUg9s-72">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="394" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="fbuUso7rly-JQaLcUg9s-65" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="407.25" y="260" width="145.5" height="140" as="geometry" />
+        <mxCell id="fbuUso7rly-JQaLcUg9s-72" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#6D99F1;shape=mxgraph.azure.cloud;" vertex="1" parent="1">
+          <mxGeometry x="80" y="366" width="100" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="fbuUso7rly-JQaLcUg9s-66" value="Network Manager" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;fillColor=#6D99F1;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="407.25" y="260" width="145.5" height="40" as="geometry" />
+        <mxCell id="fbuUso7rly-JQaLcUg9s-73" value="&lt;font color=&quot;#6d99f1&quot;&gt;&lt;b&gt;Map building&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;" vertex="1" parent="1">
+          <mxGeometry x="378" y="392" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fbuUso7rly-JQaLcUg9s-67" value="&lt;font color=&quot;#6d99f1&quot;&gt;&lt;b&gt;Ntrip&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;" vertex="1" parent="1">
-          <mxGeometry x="422.75" y="360" width="80" height="30" as="geometry" />
+        <mxCell id="fbuUso7rly-JQaLcUg9s-75" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(109, 153, 241);&quot;&gt;App setting&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;" vertex="1" parent="1">
+          <mxGeometry x="285.5" y="350" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fbuUso7rly-JQaLcUg9s-68" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="757.25" y="260" width="145.5" height="140" as="geometry" />
+        <mxCell id="fbuUso7rly-JQaLcUg9s-76" value="&lt;font color=&quot;#6d99f1&quot;&gt;&lt;b&gt;Ntrip&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="350" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fbuUso7rly-JQaLcUg9s-69" value="Log" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;fillColor=#6D99F1;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="757.25" y="260" width="145.5" height="40" as="geometry" />
+        <mxCell id="fbuUso7rly-JQaLcUg9s-78" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(109, 153, 241);&quot;&gt;IoT SDK&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="392" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fbuUso7rly-JQaLcUg9s-70" value="&lt;font color=&quot;#6d99f1&quot;&gt;&lt;b&gt;DDS Manager&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;" vertex="1" parent="1">
-          <mxGeometry x="772.75" y="360" width="114.5" height="30" as="geometry" />
+        <mxCell id="fbuUso7rly-JQaLcUg9s-79" value="&lt;font color=&quot;#6d99f1&quot;&gt;&lt;b&gt;......&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="350" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fbuUso7rly-JQaLcUg9s-71" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.phone_android" vertex="1" parent="1">
-          <mxGeometry x="80" y="320" width="56" height="100" as="geometry" />
+        <mxCell id="fbuUso7rly-JQaLcUg9s-82" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="590" y="290" width="300" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="fbuUso7rly-JQaLcUg9s-72" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.cloud;" vertex="1" parent="1">
-          <mxGeometry x="200" y="342" width="100" height="56" as="geometry" />
+        <mxCell id="fbuUso7rly-JQaLcUg9s-83" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;dashed=1;" vertex="1" parent="fbuUso7rly-JQaLcUg9s-82">
+          <mxGeometry width="300" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fbuUso7rly-JQaLcUg9s-84" value="Network manager" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;fillColor=#6D99F1;fontColor=#FFFFFF;fontStyle=1;fontSize=15;" vertex="1" parent="fbuUso7rly-JQaLcUg9s-82">
+          <mxGeometry width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fbuUso7rly-JQaLcUg9s-85" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(109, 153, 241);&quot;&gt;DDS/NNG&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;" vertex="1" parent="1">
+          <mxGeometry x="605.5" y="387" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fbuUso7rly-JQaLcUg9s-86" value="&lt;font color=&quot;#6d99f1&quot;&gt;&lt;b&gt;BLE API&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;" vertex="1" parent="1">
+          <mxGeometry x="698" y="387" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fbuUso7rly-JQaLcUg9s-87" value="&lt;font color=&quot;#6d99f1&quot;&gt;&lt;b&gt;IoT SDK&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;" vertex="1" parent="1">
+          <mxGeometry x="605.5" y="345" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fbuUso7rly-JQaLcUg9s-88" value="&lt;font color=&quot;#6d99f1&quot;&gt;&lt;b&gt;Ntrip&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="345" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fbuUso7rly-JQaLcUg9s-89" value="&lt;font color=&quot;#6d99f1&quot;&gt;&lt;b&gt;NNG&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="387" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fbuUso7rly-JQaLcUg9s-90" value="&lt;font color=&quot;#6d99f1&quot;&gt;&lt;b&gt;App setting&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6D99F1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="345" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
