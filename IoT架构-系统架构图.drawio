@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-21T00:38:01.936Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.50" etag="WATHuMr5IgKjd2Y1gA4I" version="24.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-21T00:39:05.720Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.50" etag="HjJnUQXOmuEUV85E6WI3" version="24.0.4" type="github">
   <diagram name="Page-1" id="l_OiwGUTq0qdKfJkXdF_">
     <mxGraphModel dx="1433" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -201,9 +201,6 @@
         </mxCell>
         <mxCell id="pYx0bb8y0Nwebs5ZcUZV-43" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6D99F1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="156.5" y="240" width="702" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="pYx0bb8y0Nwebs5ZcUZV-46" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;b&gt;Map building&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6D99F1;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1393" y="310" width="131" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pYx0bb8y0Nwebs5ZcUZV-47" value="Provision" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fontColor=#6D99F1;fontStyle=1;container=0;" parent="1" vertex="1">
           <mxGeometry x="166" y="280" width="102.5" height="40" as="geometry" />
