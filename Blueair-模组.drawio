@@ -1,9 +1,18 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
   <diagram name="第 1 页" id="FveKFxS8xN589emaOXkU">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RBkjEKFv9Ist0dfP0Nhb-1" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#002954;dashed=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="240" y="240" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RBkjEKFv9Ist0dfP0Nhb-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;IoT接入&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#002954;strokeColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="265" y="260" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RBkjEKFv9Ist0dfP0Nhb-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;业务逻辑&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#002954;strokeColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="265" y="320" width="170" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
