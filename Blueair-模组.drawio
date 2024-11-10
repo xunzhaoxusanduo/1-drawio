@@ -16,6 +16,9 @@
         <mxCell id="RBkjEKFv9Ist0dfP0Nhb-4" value="&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#002954&quot;&gt;WiFi模组&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="200" y="450" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="RBkjEKFv9Ist0dfP0Nhb-5" value="&lt;font color=&quot;#ffffff&quot;&gt;AWS IoT&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#002954;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="160" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
