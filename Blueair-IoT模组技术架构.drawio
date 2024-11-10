@@ -10,6 +10,9 @@
         <mxCell id="GuPK13zTEH5kF5k_pR3C-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;OTA&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#002954;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="130" y="480" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="GuPK13zTEH5kF5k_pR3C-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;AWS IoT接入&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#002954;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="270" y="480" width="120" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
